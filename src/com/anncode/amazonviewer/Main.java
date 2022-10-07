@@ -5,11 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-import com.anncode.amazonviewer.model.Book;
-import com.anncode.amazonviewer.model.Chapter;
-import com.anncode.amazonviewer.model.Magazine;
-import com.anncode.amazonviewer.model.Movie;
-import com.anncode.amazonviewer.model.Serie;
+import com.anncode.amazonviewer.model.*;
 import com.anncode.makereport.Report;
 import com.anncode.util.AmazonUtil;
 
@@ -17,7 +13,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Film film = new Movie("","","",1, (short)1999);
 		showMenu();
 
 	}
